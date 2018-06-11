@@ -1,0 +1,30 @@
+{
+  "name": "truper",
+  "version": "0.0.1",
+  "description": "Compile vyper contracts to truffle compatible artifacts",
+  "directories": {
+    "test": "test"
+  },
+  "bin": "./index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    ""
+  ],
+  "authors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "colors": "1.3.0",
+    "shelljs": "0.8.2"
+  },
+  "devDependencies": {}
+}
