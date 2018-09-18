@@ -22,10 +22,10 @@ $ `truper /path/to/contracts`
 
 The compiled output is always written to `./build/contracts`.
 
-If the contract file name was `myContract.v.py`, the compiler output will be written to `myContract.vyper.json`.
+If the contract file name was `myContract.v.py`, the compiler output will be written to `myContract.json`.
 
 ## Importing for use in Truffle tests
 
-`const MyContract = artifacts.require('myContract.vyper');`
+`const MyContract = artifacts.require('myContract');`
 
 The contract can then be used in truffle just as any other solidity contracts compiled by truffle, (though I have not tested with migrations at all).
