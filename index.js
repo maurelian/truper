@@ -60,9 +60,9 @@ function buildWithVyper(source, buildPath) {
   };
 
   fs.writeFileSync(
-    `${buildPath}/${contractName}.vyper.json`,
+    `${buildPath}/${contractName}.json`,
     JSON.stringify(contractDefinition, null, '  '),
   );
-  console.log(`Writing output to: ${buildPath}/${contractName}.vyper.json`.green); // eslint-disable-line
+  console.log(`Writing output to: ${buildPath}/${contractName}.json`.green); // eslint-disable-line
 }
 
