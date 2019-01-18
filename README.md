@@ -1,3 +1,11 @@
+## Deprecated
+
+Truper solved a temporary need so I could learn Vyper by translating existing solidity contracts and reuse the test suites for quick feedback.  It's probably not compatible with recent versions of Truffle. 
+
+Try this: https://github.com/truffle-box/vyper-example-box
+
+-----------
+
 # Truper
 
 __A simple tool to compile vyper contracts to truffle compatible artifacts.__
