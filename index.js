@@ -26,7 +26,7 @@ if (contractsPath) {
 function build(contractsPath = './contracts', buildPath = './build/contracts') {
   // find vyper files:
   const files = fs.readdirSync(contractsPath);
-  const vyperFiles = files.filter(file => file.slice(-5) == '.v.py');
+  const vyperFiles = files.filter(file => file.slice(-5) == '.v.py' || file.slice(-3) == '.vy');
 
   // check that the buildPath exists
   if(!fs.existsSync(buildPath)){
